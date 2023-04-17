@@ -1,8 +1,13 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+    font-weight: 300;
     color: rgb(55, 29, 46);
     padding: 2rem 2rem 0 2rem;
     margin: 0;
+}
+
+h1 {
+    font-weight: 700;
 }
 
 h1,

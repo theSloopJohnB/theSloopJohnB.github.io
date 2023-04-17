@@ -1,0 +1,58 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(55, 29, 46);
+    padding: 2rem 2rem 0 2rem;
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.todo {
+    text-align: center;
+    background-color: magenta;
+}
+
+.footer {
+    background-color: rgb(55, 29, 46);
+    color: white;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px;
+    padding: 5rem 1rem;
+}
+
+.footer h2 {
+    color: rgb(134, 163, 151);
+    text-align: left;
+}
+
+.footer-copy {
+    max-width: 300px;
+}
+
+.footer .image-container {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer img {
+    max-height: 100%;
+}
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax rgb(55, 29, 46);
+    clip-path: inset(0 -100vmax);
+}
